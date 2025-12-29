@@ -1,0 +1,9 @@
+static_library("kv_store") {
+ sources = [
+ "kv_store.c" 
+ ]
+
+ include_dirs = [
+     "//base/iot_hardware/peripheral/interfaces/kits"
+ ]
+}

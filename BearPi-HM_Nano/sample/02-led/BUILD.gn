@@ -1,0 +1,9 @@
+static_library("led_example") {
+ sources = [
+ "led_example.c" 
+ ]
+
+ include_dirs = [
+     "//ohos_bundles/@bearpi/bearpi_iot_controller/interfaces/kits"
+ ]
+}

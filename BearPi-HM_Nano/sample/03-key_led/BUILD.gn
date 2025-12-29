@@ -1,0 +1,9 @@
+static_library("key_led") {
+ sources = [
+ "key_led.c" 
+ ]
+
+ include_dirs = [
+     "//base/iot_hardware/peripheral/interfaces/kits"
+ ]
+}
